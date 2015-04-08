@@ -5,5 +5,6 @@ else
 fi
 
 alias g='git'
-alias gp='git pull --rebase && git push'
+alias pull='git pull --rebase'
+alias push='git pull --rebase && git push'
 git config --global alias.s status
